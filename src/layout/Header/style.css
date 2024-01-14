@@ -1,0 +1,32 @@
+.header{
+    min-width: 100vw;
+    min-height: 70px;
+    position: absolute;
+    top: 8px;
+    background-color: #577bc4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e3e7ec;
+}
+
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    padding-left: 1300px;
+}
+
+.header li{
+    float: left; 
+    box-sizing: border-box;
+    background-color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 15px;
+    margin: 4px 10px;
+    
+}
